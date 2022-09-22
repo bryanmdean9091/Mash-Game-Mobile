@@ -55,6 +55,7 @@ function finalScreen() {
   mashSelect()
   setTimeout(future, 4500);
 
+
   function future() {
     document.getElementsByClassName("wait")[0].classList.add("hidden2");
     document.getElementsByClassName("wait")[0].classList.remove("show");
@@ -62,7 +63,7 @@ function finalScreen() {
     document.getElementsByClassName("future")[0].classList.remove("hidden2");
     document.getElementsByClassName("resetBtn")[0].classList.add("show");
     document.getElementsByClassName("resetBtn")[0].classList.remove("hidden");
-    document.body.style.backgroundImage = "url(./css/images/spiraly.gif)";
+    document.body.style.backgroundImage = "url(./css/images/galaxygif.webp)";
     console.log(mash.Result)
     document.getElementById("answers").innerHTML = `You will marry ${mashResult[0]}, earn a living as a ${mashResult[1]}, have ${mashResult[2]} beautiful children and live in a ${mashWord}!`;
   }

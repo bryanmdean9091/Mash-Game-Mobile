@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mash Game Mobile</title>
     <!-- google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,9 +22,9 @@
 
 <body>
 
-    <div class="container text-center paper">
+    <div class="container text-center paper g-0">
         <div class="row header g-0">
-            <div class="col-10 col1 text-center">
+            <div class="col-12 col1 text-center mb-0 g-0">
                 <h1 class="mt-5 M display-1 show2">M.</h1>
                 <h1 class="mt-5 A display-1 show2">A.</h1>
                 <h1 class="mt-5 S display-1 show2">S.</h1>
@@ -35,16 +36,15 @@
                     <div class="hidden2 wait">
                         <h3>Please Wait <br> While The Universe <br> Determines Your Future</h3>
                         <img src="./css/images/spiraly.gif" alt="gif of spiral"
-                            style="height:45vh; width:30vw; border: .25rem solid black; margin-top: 3%;">
+                            style="height:50vh; width:45vw; border: .25rem solid black; margin-top: 2%;">
                     </div>
                     <div class="col-6 rounded box mt-3 mb-3">
 
-                        <p class="mt-3 show">Please Enter the Names of 2 <br> celebrities you admire <br> and 2 you
-                            despise
+                        <p class="mt-3 show">Please Enter the Names of 4<br> celebrities
                         </p>
-                        <p class="mt-3 hidden">Enter 2 dream careers <br> & 2 nightmare jobs <br>(please use nouns)
+                        <p class="mt-0 hidden">Enter 2 dream careers <br> & 2 nightmare jobs <br>(please use nouns)
                         </p>
-                        <p class="mt-3 hidden">Please enter 4 <br> different numbers <br>between 2-100</p>
+                        <p class="mt-1 hidden">Please enter 4 different <br> numbers between 2-100</p>
                         <div class="row inputsAll">
                             <div class="col-8 form-box mb-5">
                                 <form id="form">
@@ -54,7 +54,7 @@
                                         placeholder="2" id="input2" required>
                                     <input onkeydown="handleEnter(event)" class="inputBox  mt-3 " type="text"
                                         placeholder="3" id="input3" required>
-                                    <input class="inputBox  mt-3 mb-3 " type="text" placeholder="4" id="input4"
+                                    <input class="inputBox  mt-3 mb-0" type="text" placeholder="4" id="input4"
                                         required>
                             </div>
                             </form>
