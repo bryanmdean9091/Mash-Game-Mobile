@@ -132,7 +132,7 @@ p {
   }
 
 h2 {
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Nanum Pen Script';
     font-weight: bolder;
     color: green;
     font-size: 5vh;
@@ -143,7 +143,7 @@ h2 {
  }
 
  .copyright {
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: black;
 
